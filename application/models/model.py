@@ -14,6 +14,7 @@ class Todo(db.Model):
     posted_on = db.Column(db.Date, default=datetime.utcnow)
     status = db.Column(db.Boolean, default=False)
 
+    # 继承父类
     def __init__(self, *args, **kwargs):
         super(Todo, self).__init__(*args, **kwargs)
 
