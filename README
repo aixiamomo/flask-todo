@@ -1,0 +1,4 @@
+## 运行
+ * pip install -r requirements.txt
+ * 进入项目的shell：python manage.py shell 创建数据库：db.create_all()
+ * 运行
